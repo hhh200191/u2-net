@@ -22,7 +22,7 @@ from model import U2NET # full size version 173.6 MB
 from model import U2NETP # small version u2net 4.7 MB
 
 # 输出已经训练好的模型中所有的参数
-# checkpoint = torch.load(os.path.join(os.getcwd(), 'saved_models', 'u2netp', 'u2netp' + '.pth'), map_location='cpu')    #这里checkpoint的类型其实是一个字典
+# checkpoint = torch.load(os.path.join(os.getcwd(), 'saved_models', 'u2netp', 'u2netp' + '.pth'), map_location='cpu')  #这里checkpoint的类型其实是一个字典
 # print(checkpoint.keys())    #输出该文件里保存的内容的keys
 # for key,value in checkpoint.items():
 #     print(key)
